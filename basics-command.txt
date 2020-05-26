@@ -55,5 +55,10 @@ Redux:
 * npm install --save react-redux
 * npm install --save redux-thunk
 
-React Native Router Flux:
+React Native :
+* react-native run-ios
+* react-native run-android
 * npm install --save react-native-router-flux
+
+Genymotion:
+* adb devices
