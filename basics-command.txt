@@ -49,6 +49,8 @@ Firebase:
 * firebase init
 * firebase deploy
 * firebase hosting: disable
+* yarn add react-native-firebase
+* react-native-link react-native-firebase
 
 Redux: 
 * npm install --save redux
@@ -56,9 +58,15 @@ Redux:
 * npm install --save redux-thunk
 
 React Native :
+* create-react-app 'nome'
 * react-native run-ios
 * react-native run-android
 * npm install --save react-native-router-flux
+* react-native-link react-native-firebase
+
+React Native w/ Firebase: 
+* yarn add react-native-firebase
+* react-native-link react-native-firebase
 
 Genymotion:
 * adb devices
