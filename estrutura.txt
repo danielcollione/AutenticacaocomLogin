@@ -1,0 +1,7 @@
+O bangue de arquitetura é modulariza o código de um modo que todos entendam
+
+Components -> Componentes do seu projeto que podem ser reutilizados
+Pages -> paginas de navegação da sua aplicação
+Providers -> Funções que vão cuidar dos dados 
+
+async await

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Logo from './logo';
-import EmailAndPassword from './emailandpassword';
 
 // create a component
 const LoginForm = () => {

@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import firebase from 'firebase';
 import { View, Text, StyleSheet } from 'react-native';
 import LoginForm from './loginform';
+import Register from '../pages/Register'
 import Articles from './articles';
+import { NavigationContainer } from '@react-navigation/native';
+import 'react-native-gesture-handler';
 
 
 
@@ -10,10 +13,11 @@ import Articles from './articles';
 class App extends Component{
 
     state={
-      loggedIn:null
+      loggedIn:false
     }
 
     componentDidMount(){
+      /*
         var firebaseConfig = {
         apiKey: "AIzaSyAJKneZ9KShZuwaYhpn-0CNOZMI--z_WZA",
         authDomain: "applogin-ba36b.firebaseapp.com",
@@ -37,7 +41,7 @@ class App extends Component{
               loggedIn:false
             })
           }
-     })
+     })*/
     }
     
 
@@ -46,7 +50,7 @@ class App extends Component{
 
       switch(this.state.loggedIn){
         case false:
-          return <LoginForm/>
+          return <Register/>
         
         case true:
           return <Articles/>
